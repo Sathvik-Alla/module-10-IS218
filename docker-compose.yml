@@ -13,7 +13,7 @@ services:
       - pgdata:/var/lib/postgresql/data
 
   web:
-    build: .
+    image: sathvikalla/module10-secure-user:latest
     ports:
       - "8001:8000"
     environment:
